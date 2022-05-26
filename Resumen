@@ -1,0 +1,60 @@
+                                                                            VARIABLES
+                                                                          
+	Declaracion: Let numero; (la variable numero va a existir en nuestro programa)
+	Inicializar: numero = 29 (La variable numero vale 29)
+	
+	SE PUEDEN DECLARAR CON:
+		var:alcance global
+		let: Alncance solo dentro del bloque
+		const: Es una constante, no se puede cambiar (a diferencia de lat y var const debe inicilizarse cuando se decalra)
+
+	TIPOS DE DATOS:
+		String = "Cadena de texto"
+		Number = 19
+		Boolean = false 
+		    sintaxis: var num = 15;
+
+	CASOS ESPECIALES DE DATOS:
+		Undifinend: La variable existe en el programa pero no esta incializaeda osea definida
+		Null: La variable tiene valor ""vacio"" es decir esta inicializada pero no declarada 
+		NaN: Not a Number es un valor que surge cuando la operación que realizamos la teniamos que hacer con un numero y la relizamos con otra cosaa 
+    
+	    Scope: alcance de las variables osea el bloque 
+	    Hoisting: Ejecución de algunas partes del codigo antes de crearla (ejecuto una variable antes de definirla ESTO ES MEDIO FALOPA)
+
+CREACIÓN DE MULTIPLES VARIABLES:
+    Declarar y luego inicializar
+		let numero1, numero2, numero3;
+		numero1 = 1;
+		numero2 = 2;
+		numero3 = 3;
+
+    ---------- o -----------
+    
+    Declarar e inicializar en la misma linea
+    let numero1 = 23; numero2 = 24; 
+    
+    COMO ALMACENAR VARIABLES
+      let nombre= prompt("Decime tu Nombre");
+      alert (nombre);
+      
+                                                                            OPERADORES
+
+		
+OPERADORES ARITMETICOS: Toman valores númericos literales o variables como operandos y retornan un valor númerico único 
+ 
+             let numero = 20;
+             numero += 3;
+             document.write (numero):
+                                 |x += y
+                                  x += y 
+              
+OPERADORES DE ASIGNACIÓN: Asignan un valor al OPERANDO de la izquierda basado en el valor de la derecha 
+
+
+              numero1 = 10;
+              numero1 ++;
+              resultado = numero1++;
+              alert(resultado);
+              
+                                                                          CONCATENACION
